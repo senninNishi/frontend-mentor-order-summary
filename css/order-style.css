@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(https://i0.wp.com/btweeps.com/wp-content/uploads/2020/07/background-shapes-01alt-14-41-42-627.png?ssl=1);
+}
+
+p{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+
+
+.container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.card{
+    background: white;
+    width: 600px;
+    height: 800px;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.card-img{
+    height: 300px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.card-1{
+    background-image: url(/images/illustration-hero.svg);
+}
+
+.order-details{
+    width: 80%;
+    margin: auto;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.container-1{
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container-1-link{
+    position: absolute;
+    right: 20px;
+}
+
+.container-1-link a{
+    font-weight: 700;
+    color: #3929e0;
+}
+.order-details h3 {
+    margin: 0 10px;
+}
+
+.order-details p{
+    margin: 0 10px;
+    color: rgb(119, 119, 119);
+}
+
+
+
+.btn {
+    width: 75%;
+	box-shadow: 0px 14px 22px -11px #666666;
+	background-color:#3929e0;
+	border-radius:15px;
+	display:block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:17px;
+    font-weight: 700;
+	padding:16px 31px;
+	text-decoration:none;
+    margin: 50px auto 50px auto;
+}
+.btn:hover {
+	background-color: hsl(224, 23%, 55%) ;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.btn-cancel{
+    color:rgb(119, 119, 119);
+    text-decoration: none;
+    font-weight: 700 ;
+}
